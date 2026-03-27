@@ -25,20 +25,35 @@ export default function RitHeader1() {
             </Link>
 
 
+
             <div className="flex items-center justify-between">
 
-                <nav className="flex justify-around w-30 mr-4">
-                    <Link href="/" className=" flex items-center justify-center">
-                        <IoIosSearch className="w-7 h-7" />
-                    </Link>
-                    <Link href="/" className=" flex items-center justify-center">
+                <div className="">
+
+                    <div className="relative w-30 mr-4 hidden lg:block">
+                        <input
+                            type="text"
+                            className="pl-10 pr-4 py-2 rounded"
+                            placeholder="Search..."
+                        />
+                        <IoIosSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+                    </div>
+                    <div>
+                        <Link href="/" className="flex items-center justify-center mr-4 lg:hidden">
+                            <IoIosSearch className="w-7 h-7" />
+                        </Link>
+                    </div>
+
+                </div>
+
+                <div className="flex items-center space-x-4 mr-4">
+                    <Link href="/" className="flex items-center justify-center">
                         <RiUser3Line className="w-6 h-6" />
                     </Link>
-                    <Link href="/" className=" flex items-center justify-center">
+                    <Link href="/" className="flex items-center justify-center">
                         <BsBag className="w-6 h-6" />
                     </Link>
-
-                </nav>
+                </div>
 
                 <button className="md:hidden p-2" aria-label="Open menu">
                     <svg
