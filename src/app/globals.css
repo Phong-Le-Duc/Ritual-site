@@ -16,7 +16,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #2c2c2c;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -32,4 +32,10 @@ h1,
 h2,
 h3 {
   font-family: var(--font-heading), Impact, Arial, sans-serif;
+}
+
+.font-bebas {
+  font-family: var(--font-bebas), Impact, Arial, sans-serif;
+  letter-spacing: 0.1em;
+  /* adjust as needed */
 }
