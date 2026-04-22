@@ -36,7 +36,7 @@ export default function RitHeader1() {
 
 
                 <Link href="/" className="flex items-center" aria-label="Home">
-                    <figure className="mr-4 pl-2 w-28">
+                    <figure className="mr-4 pl-2 w-28 h-auto">
                         <Image
                             src="/images/RitualLogo1.svg"
                             alt="RitualLogo"
@@ -57,8 +57,8 @@ export default function RitHeader1() {
                     <Link href="/" className="text-white" aria-label="Help">
                         Help
                     </Link>
-                    <Link href="/" className="text-white" aria-label="Log in">
-                        Log in
+                    <Link href="/flavor" className="text-white" aria-label="Spice">
+                        Spice
                     </Link>
                 </nav>
 
