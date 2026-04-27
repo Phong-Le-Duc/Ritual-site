@@ -1,9 +1,9 @@
 import RitHeader1 from "@/components/header";
 // import Hero from "@/components/hero";
 import { getAllProducts } from "@/lib/dal/products";
-import ProductList from "@/components/products/ProductList";
+import { ProductList } from "@/components/products";
 import { Product } from "@/types";
-import FlavorHero from "@/components/hero/FlavorHero";
+import { FlavorHero } from "@/components/hero";
 
 
 

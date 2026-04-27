@@ -8,7 +8,7 @@ import { AiOutlineFire } from "react-icons/ai";
 export default function RitHeader1() {
 
     return (
-        <header className="">
+        <header className="sticky top-0 z-50 bg-black/80 backdrop-blur">
 
 
 
@@ -31,9 +31,7 @@ export default function RitHeader1() {
             </nav>
 
 
-            <div className="flex justify-between items-center p-4 bg-gray-800/25 h-24">
-
-
+            <div className="flex justify-between items-center p-4 h-24">
 
                 <Link href="/" className="flex items-center" aria-label="Home">
                     <figure className="mr-4 pl-2 w-28 h-auto">
